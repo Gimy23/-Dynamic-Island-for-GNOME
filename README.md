@@ -105,3 +105,5 @@ Every run of `install.sh` or `upgrade.sh` saves a timestamped backup and dconf s
 - **Wayland Session Reload**: GNOME Shell on Wayland acts as the display server and does not support reloading JS extensions in-place without logging out and back in (or running a nested `dbus-run-session -- gnome-shell --nested --wayland` instance).
 - **Per-Byte Download Percentage**: Because Linux browsers (Firefox, Chrome) write to `.part` or `.crdownload` files without broadcasting byte-level progress over a unified desktop D-Bus specification, the download monitor tracks active transfer count (`↓N`) and completion events via `Gio.FileMonitor`.
 # -Dynamic-Island-for-GNOME
+# -Dynamic-Island-for-GNOME
+# -Dynamic-Island-for-GNOME
